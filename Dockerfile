@@ -264,6 +264,7 @@ ADD config/02_proxy.conf /etc/nginx/conf.d/02_proxy.conf
 ADD config/03_geoip2.conf /etc/nginx/conf.d/03_geoip2.conf
 ADD config/00_log_with_geoip.conf /etc/nginx/conf.d/00_log_with_geoip.conf
 ADD config/10_default.conf /etc/nginx/conf.d/10_default.conf
+ADD config/sal.stisidore.org.conf /etc/nginx/conf.d/sal.stisidore.org.conf
 
 # NOTE: The other crontab file will not be scaned
 COPY config/crontab /var/spool/cron/crontabs/root
